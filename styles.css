@@ -1,0 +1,53 @@
+.wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 2.45rem;
+    padding-top: 2rem;
+    z-index: 1000;
+    max-width: 1000px;
+    min-width: 320px;
+}
+/* Standard style requirements for a basic profile page, creates margins left and right, pads content, ensures positions remain relative and ensures elements appear above a background image,
+min and max size to keep the margins the same and adds scroll bars*/
+.profile-pic
+{
+    max-width: 100%;
+}
+
+.row
+{
+    margin-bottom: 5%;
+}
+
+.clip
+{
+    width: 100%;
+    height: auto;
+}
+
+/* This media wrapper makes things work on mobile mah drilla */
+@media(max-width: 992px)
+{
+    .clip
+    {
+        width: 100%;
+        height: auto;
+    }
+    h5
+    {
+        font-size: 4rem;
+    }
+    p
+    {
+        font-size: 2rem;
+    }
+
+    .row
+    {
+        margin-bottom: 0;
+        align-items: center;
+    }
+    
+}
